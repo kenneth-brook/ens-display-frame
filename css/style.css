@@ -1,0 +1,613 @@
+
+
+.research-container h1 {
+  text-align: center;
+  color: rgb(29, 104, 183);
+  font-size: 54px;
+  font-family: "Segoe Ui";
+    font-weight: 400;
+    padding-bottom: 20px;
+}
+
+.heading{
+padding-bottom: 20px;
+}
+
+
+.research-container h1 span {
+  color: rgb(181, 51, 51);
+    font-weight: 700;
+  
+}
+
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+
+.card-container img {
+  width: 600px;
+  height: 300px;
+  margin-right: 20px;
+}
+
+
+.first {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+
+.card1 {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: white;
+  position: absolute;
+  top: 280px;
+  left: 250px;
+}
+
+
+.card1 img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 34px;
+  height: 34px;
+  margin: 12px auto;
+  padding: 5px;
+}
+
+.second-div {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+
+.card2 {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: white;
+  position: absolute;
+  top: 280px;
+  left: 250px;
+}
+
+
+.card2 img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 34px;
+  height: 34px;
+  margin: 12px auto;
+  padding: 5px;
+}
+
+
+.third-div {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+
+.card3 {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: white;
+  position: absolute;
+  top: 280px;
+  left: 250px;
+}
+
+
+.card3 img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 34px;
+  height: 34px;
+  margin: 12px auto;
+  padding: 5px;
+}
+
+
+.research-container .heading {
+  text-align: center;
+  font-size: 32px;
+  font-family: "Segoe Ui";
+  font-weight: 600;
+  margin-top: 80px;
+}
+
+
+
+.second-parag {
+  text-align: center;
+  font-size: 25px;
+  font-family: "Segoe Ui";
+}
+
+
+.number {
+  color: rgb(181, 51, 51);
+  font-weight: 700;
+}
+
+
+.emerge {
+  color: rgb(181, 51, 51);
+}
+
+
+.bule-N {
+  color: rgb(29, 104, 183);
+}
+
+
+.red-N {
+  color: rgb(181, 51, 51);
+}
+
+
+.blue-S {
+  color: rgb(29, 104, 183);
+  font-weight: 700;
+}
+
+
+.see {
+  color: rgb(181, 51, 51);
+  font-weight: 700;
+}
+
+
+/* --------------------------------------real time incident total section-------------------------------------------- */
+.incident-total-section {
+  background-image: linear-gradient(
+      rgba(1, 59, 120, 0.7),
+      rgba(1, 59, 120, 0.7)
+    ),
+    url("../images/background/mask-group17.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+
+.incident-total-fist-row {
+  display: flex;
+  gap: 40px;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: center;
+  margin: 10px 0px;
+  padding: 0 70px;
+}
+
+
+.incident-total-top-left {
+  width: 816px;
+  color: white;
+  font-family: "Segoe Ui";
+}
+
+
+.incident-total-top-left h1 {
+  font-size: 44px;
+}
+
+
+.incident-total-top-left p {
+  font-size: 29px;
+}
+
+
+.incident-total-top-right {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 663px;
+  background-color: rgb(240, 188, 41);
+  border: none;
+  border-radius: 20px;
+  padding: 25px 35px;
+  font-family: "Segoe Ui";
+}
+
+
+.incident-total-top-right .first-div {
+  background-color: #b92025;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  border: 2px solid #fff;
+  height: 57px;
+  border-radius: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+  width: 580px;
+  height: 57px;
+}
+
+
+
+.incident-total-top-right .second-div {
+  background-color: #2469b3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  border: 2px solid #fff;
+  border-radius: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+  width: 580px;
+  height: 57px;
+}
+
+
+.incident-total-top-right .third-div {
+  background-color: #565656;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  border: 2px solid #fff;
+  border-radius: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 5px;
+  width: 580px;
+  height: 57px;
+}
+
+
+.incident-total-line {
+  width: 100%;
+  background-color: white;
+  border: none;
+  height: 1px;
+}
+
+
+.incident-total-second-row {
+  display: flex;
+  gap: 100px;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: center;
+  font-family: "Segoe Ui";
+  padding: 0;
+  margin: 10px 0;
+  padding: 0 70px;
+}
+
+
+.incident-total-bottom-left {
+  width: 663px;
+  height: 293px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+
+  border-radius: 20px;
+}
+
+
+.icons {
+  margin-top: 60px;
+}
+
+
+.icons span {
+  display: flex;
+  align-items: center;
+  margin: 10px;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+
+.law img {
+  margin-right: 7px;
+}
+
+
+.law {
+  color: #2469b3;
+}
+
+
+.ems img {
+  margin-right: 7px;
+}
+
+
+.ems {
+  color: #3ab74b;
+}
+
+
+.fire img {
+  margin-right: 7px;
+}
+
+
+.fire {
+  color: #b92025;
+}
+
+
+.traffic img {
+  margin-right: 7px;
+}
+
+
+.traffic {
+  color: #f6992b;
+}
+
+
+.road img {
+  margin-right: 7px;
+}
+
+
+.road {
+  color: #ee5624;
+}
+
+
+.incident-total-bottom-right {
+  width: 500px;
+  color: white;
+}
+
+
+.incident-total-bottom-line {
+  background-color: gray;
+  width: 2px;
+  height: 140px;
+  margin-top: 80px;
+  border-right: 1px solid gray;
+}
+
+
+.incident-total-bottom-right h1 {
+  font-size: 44px;
+}
+
+.incident-total-bottom-right p {
+  font-size: 29px;
+}
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 600px) {
+  .research-container h1 {
+    font-size: 18px;
+  }
+
+  .research-container .heading {
+    font-size: 18px;
+  }
+
+  .second-parag {
+    font-size:14px;
+  }
+    
+  .first .image1 {
+    width: 100%;
+    padding: 0;
+    margin-top: 20px;
+  }
+    
+    
+  .second-div .image2 {
+    width: 100%;
+    padding: 8px;
+  }
+    
+    
+  .third-div .image3 {
+    width: 90vw;
+    padding: 0;
+  }
+    
+    
+  .card-container img {
+    margin-right: 0;
+  }
+    
+    
+  .card1 {
+    top: 280px;
+    left: 150px;
+  }
+    
+    
+  .card1 img {
+    margin-left: 27px;
+  }
+    
+    
+  .card2 img {
+    margin-left: 27px;
+  }
+    
+    
+  .card2 {
+    top: 280px;
+    left: 150px;
+  }
+    
+    
+  .card3 img {
+    margin-left: 27px;
+  }
+    
+    
+  .card3 {
+    top: 280px;
+    left: 150px;
+  }
+    
+    
+  .incident-total-section {
+    width: 100%;
+    height: 100%;
+  }
+    
+    
+  .incident-total-top-left {
+    width: 100%;
+  }
+    
+    
+  .incident-total-top-right {
+    width: 100%;
+  }
+    
+    
+  .incident-total-top-right .first-div {
+    width: 100%;
+  }
+    
+    
+  .incident-total-top-right .second-div {
+    width: 100%;
+  }
+    
+    
+  .incident-total-top-right .third-div {
+    width: 100%;
+  }
+    
+    
+  .incident-total-top-left {
+    width: 290px;
+  }
+    
+    
+  .incident-total-top-left h1 {
+    font-size: 30px;
+  }
+    
+    
+  .incident-total-top-left p {
+    font-size: 20px;
+  }
+    
+    
+
+  .incident-total-top-right .first-div h1 {
+    font-size: 16px;
+  }
+    
+    .incident-div img{
+        margin-left: 10vw !important;
+        width: 60vw !important;
+    }
+    
+    
+  .incident-total-top-right .second-div h1 {
+    font-size: 16px;
+  }
+    
+    
+  .incident-total-top-right .third-div h1 {
+    font-size: 16px;
+  }
+    
+    
+  .incident-total-second-row {
+    gap: 20px;
+  }
+    
+    
+  .incident-total-bottom-left {
+    width: 300px;
+    gap: 0;
+  }
+    
+    
+  .incident-total-bottom-right {
+    width: 300px;
+  }
+    
+    
+  .incident-total-bottom-right h1 {
+    font-size: 30px;
+  }
+    
+    
+  .incident-total-bottom-right p {
+    font-size: 16px;
+  }
+    
+    
+}
+
+.copy {
+  font-size: 24px;
+}
+
+.menu-description {
+  padding: 0 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,233 @@
+.mobile-menu-item {
+  background-color: #e9f2f8;
+}
+
+.what-is-it {
+  display: flex;
+  margin-top: 56px;
+}
+
+.what-is-it-first {
+  background-color: #b92025;
+  width: 662px;
+  height: 682px;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-family: "Segoe Ui";
+  color: white;
+  border-radius: 0px 50px 0px 0px;
+}
+
+.sorao {
+  padding-left: 70px;
+}
+
+
+
+.second-para {
+  font-size: 39px;
+  padding: 20px 60px 40px 0px;
+}
+
+
+.what {
+  font-weight: 700;
+}
+
+.first-para {
+  padding: 40px 0 20px;
+}
+
+
+
+
+.what-para-div {
+  font-size: 25px;
+  font-family: "Segoe Ui";
+  margin-top: 60px;
+  padding-top: 90px;
+  background-color: rgb(233, 242, 248);
+}
+
+.what-para-div p {
+  padding: 0 50px;
+}
+
+.list-div {
+  background-color: white;
+  padding-left: 50px;
+  font-family: "Segoe Ui";
+}
+
+.list-div ul {
+  list-style: none;
+}
+
+.list-div ul li {
+  position: relative;
+  padding-left: 20px;
+  line-height: 1.5;
+  font-size: 21px;
+}
+
+.list-div-title {
+  font-size: 28px;
+  font-weight: 700;
+  color: rgb(181, 51, 51);
+}
+
+.list-div ul li::before {
+  content: "";
+  display: inline-block;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background-color: rgb(181, 51, 51);
+  text-align: start;
+  position: absolute;
+  left: 0;
+  top: 40%;
+  transform: translateY(-50%);
+}
+
+.shortcut-div {
+  margin-left: 60px;
+  font-size: 21px;
+}
+
+.shortcut-div p {
+  color: rgb(181, 51, 51);
+  gap: 0;
+  font-weight: 600;
+}
+
+.shortcut-div span {
+  color: #1d68b7;
+  font-weight: 400;
+}
+
+.all-list {
+  width: 500px;
+}
+
+.list-section {
+  background-color: rgb(233, 242, 248);
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  padding-top: 40px;
+
+}
+
+.list-img p {
+  font-size: 29px;
+  font-family: "Segoe Ui";
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.list-img img {
+  margin-top: -220px;
+  margin-left: -20px;
+}
+
+.E-red {
+  color: rgb(181, 51, 51);
+  font-weight: 700;
+}
+
+.incident-div img {
+  margin-left: 315px;
+  margin-top: -102px;
+}
+
+.incident-div p {
+  font-size: 21px;
+  font-family: "Segoe Ui";
+  margin-left: 30%;
+}
+
+.incident-section {
+  background-color: #cce8fa;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.bold-text {
+  color: rgb(181, 51, 51);
+  font-weight: 700;
+}
+
+.light-blue {
+  color: #246db9;
+}
+
+@media only screen and (max-width: 600px) {
+  .what-is-it-first {
+    width: 300px;
+    height: 490px;
+  }
+
+  .sorao hr {
+    width: 38vw;
+    height: 0.2vw;
+  }
+
+  .what-para-div p {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .what-is-it-first p {
+    font-size: 21px;
+  }
+
+  .list-div {
+    width: 100%;
+  }
+
+  .all-list {
+    width: 100%;
+  }
+
+  .all-list ul hr {
+    width: 68vw;
+    height: 0.2vw;
+  }
+
+  .shortcut-div {
+    margin-left: 0px;
+
+    font-size: 15px;
+  }
+
+  .list-div-title {
+    font-size: 20px;
+  }
+
+  .list-img {
+    width: 100%;
+    margin-top: 300px;
+  }
+  .list-img img {
+    width: 300px;
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .incident-div img {
+    width: 300px;
+    margin-left: 0px;
+    margin-top: 0px;
+  }
+
+
+  .incident-div p {
+    font-size: 21px;
+    font-family: "Segoe Ui";
+    margin-left: 0px;
+  }
+
+ 
+}
